@@ -455,8 +455,8 @@ for file_name in "${trainval_video_files[@]}"; do
 done
 
 # Zip the files / Remove the directory
-zip -r trainval_video_files.zip trainval_downloaded_videos
-rm -rf trainval_downloaded_videos
+# zip -r trainval_video_files.zip trainval_downloaded_videos
+# rm -rf trainval_downloaded_videos
 
 # Iterate over each video file name and download it
 for file_name in "${test_video_files[@]}"; do
@@ -468,5 +468,5 @@ for file_name in "${test_video_files[@]}"; do
 done
 
 # Zip the files / Remove the directory
-zip -r test_video_files.zip test_downloaded_videos
-rm -rf test_downloaded_videos
+# zip -r test_video_files.zip test_downloaded_videos
+# rm -rf test_downloaded_videos
